@@ -41,7 +41,7 @@ def lasso(data):
     return data @ weights
 
 
-def read_data(path='C:/Users/10438/linear-regression-xlsjl/data/exp02/'):
+def read_data(path='./data/exp02/'):
     x = np.load(path + 'X_train.npy')
     y = np.load(path + 'y_train.npy')
     return x, y
