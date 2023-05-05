@@ -21,7 +21,7 @@ def lasso(data):
     x, y = read_data()
     weights = np.random.randn(6)
     Lambda = 0.5
-    learning_rate = 0.0007 #7
+    learning_rate = 0.0006 #8
 
     for i in range(2000):
         y_pred = x @ weights
