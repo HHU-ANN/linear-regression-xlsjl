@@ -2,4 +2,4 @@
 
 def main():
 
-    return
+    return "Hello, World!"
